@@ -22,3 +22,9 @@
    - PATCH `/entries/{entry_id}/complete`
    - Параметр: `completed=true/false`
 
+Через переменные окружения можно задать параметры подключения к базе 
+
+Пример 
+
+
+DATABASE_URL=postgresql+psycopg2://username:password@host:port/dbname
